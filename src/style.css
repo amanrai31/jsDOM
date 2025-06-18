@@ -1,0 +1,25 @@
+/* Tag css selector */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    color: darkgreen;
+}
+
+/* class css selector */
+
+.mainDiv {
+
+}
+
+/* ID css selector */
+
+#specificElementCssSelector {
+
+}
