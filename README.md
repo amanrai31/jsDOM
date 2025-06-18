@@ -14,8 +14,8 @@ Similarly in this repo => index.html connects script.js to browser.
 ### Where is CSS in HTML
 
 1. inline CSS
-2. internal CSS        (in head of html =>  ```<style> CSS like you write in external CSS file </style>```)
-3. external CSS  
+2. internal CSS        ( in head of html =>  ```<style> CSS like you write in external CSS file </style>```)
+3. external CSS        ( in head of html => ``` <link rel="stylesheet" href="styles.css">```)
 
 #### CSS Selectors have different prefixes also we access/get DOM element by these 3 references only. 
 
@@ -23,4 +23,64 @@ Similarly in this repo => index.html connects script.js to browser.
 2. ID    => start with a ```#``` => Target element with that specific ID
 3. Tag   => No prefix            => Applicable for all element with that Tag like ```<h1>```, ```<p>``` etc.
 
-**NOTE :** Inside ```inspect of browser``` => ```element section``` is for HTML & CSS AND ```console section``` is for JS
+**NOTE :** Inside `inspect of browser` => `element section` is for HTML & CSS AND `console section` is for JS
+
+### DOM
+
+When browser loads a HTML page => It parses the `elements of HTML` into `object` so that JS can access & make changes(manipulate) and save this in window.document object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Manipulation</title>
+    <style>
+      .highlight {
+        background-color: yellow;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="main-title">Welcome!</h1>
+    <p class="intro">This is an example.</p>
+    <button onclick="changeContent()">Click Me</button>
+
+    <script>
+      function changeContent() {
+        // Change text
+        document.getElementById("main-title").innerText = "Title Changed!";
+
+        // Add class to paragraph
+        document.querySelector(".intro").classList.add("highlight");
+
+        // Create a new element and add it to the body
+        const newPara = document.createElement("p");
+        newPara.innerText = "This is a new paragraph!";
+        document.body.appendChild(newPara);
+      }
+    </script>
+  </body>
+</html>
+```
