@@ -61,12 +61,12 @@ We can get element/node in 3 ways => `id`, `class`, `tagId`.
 
 Now we got the element/node by it's ID,class or tagId whatever, we can now manipulate the DOM.
 
-- Change the DOM => ``
+- Change the DOM
 
-
-
-
-
+1. tagName: get/change tag for element nodes
+2. innerText: get/change pure text content of the element and all its children
+3. innerHTML: get/change plain text OR HTML contents of the elemnt and all its children
+4. textContent: returns textual content even for hidden elements.
 
 
 
