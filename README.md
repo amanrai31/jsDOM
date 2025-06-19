@@ -10,7 +10,7 @@ Similarly in this repo => index.html connects script.js to browser.
 
 ### Where is JS in HTML
 
-1. internal JS    ( in head (which is very bad), OR at the end of body )
+1. internal JS    ( in head (which is very bad => put js in head and try `document.body` returns null i.e. DOM elements will not be accessable), OR at the end of body ) 
 2. external JS    ( standard way => because of modularity, readability, and cached JS which speeds up reload )
 
 ### Where is CSS in HTML
@@ -104,3 +104,5 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
   </body>
 </html>
 ```
+
+- `console.dir(document.body);`, `console.dir(document.head);`, `console.dir(document.body.chileNodes[1]);`, `console.dir(document.body.style.bacground = "green");` 
