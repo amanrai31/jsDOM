@@ -15,9 +15,9 @@ Similarly in this repo => index.html connects script.js to browser.
 
 ### Where is CSS in HTML
 
-1. inline CSS
+1. inline CSS           `style="color: blue; font-size: 20px;"`
 2. internal CSS        ( in head of html =>  ```<style> CSS like you write in external CSS file </style>```)
-3. external CSS        ( in head of html => ``` <link rel="stylesheet" href="styles.css">```)
+3. external CSS        ( in head of html => ``` <link rel="stylesheet" href="style.css">```)
 
 #### CSS Selectors have different prefixes also we access/get DOM element by these 3 references only. 
 
