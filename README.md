@@ -39,7 +39,7 @@ Node type
 - Attribute        =>  class="titles"
 - Text             =>  "Hello"
 - Comment          =>  `<!--comment-->`
-- Element          =>  Main => e.g. <div>, <p>,<ul>
+- Element          =>  Main => `e.g. <div>, <p>,<ul>`
 
 -----
 
