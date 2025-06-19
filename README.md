@@ -129,5 +129,15 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 </html>
 ```
 
+- Qestion => Add a button with name "Click", background color should be red and append this button at the starting of body.
+
+```html
+let btn = document.createElement("button");
+btn.innerText = "Click";
+btn.style.backgroundColor = "red";
+
+document.body.preAppend(btn);
+```
+
 - `console.dir(document.body);`, `console.dir(document.head);`, `console.dir(document.body.chileNodes[1]);`, `console.dir(document.body.style.bacground = "green");`
 
