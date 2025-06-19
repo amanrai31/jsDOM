@@ -77,6 +77,8 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 - `node.style` => style `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"`
 
+**NOTE :** Whatever style we add through JS will become inline CSS.
+
 ### Insert/add elements in DOM (2 step process)
 
 - node.append(el)      => adds at the end of node(inside); syntax => `let el = document.creatElement(tagName); ADD SOME STYLE; node.append(el);`
