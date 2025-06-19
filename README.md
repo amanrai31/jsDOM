@@ -57,19 +57,38 @@ We can get element/node in 3 ways => `id`, `class`, `tagId`.
 
 - `document.querySelector("#exampleID")` || `document.querySelector(".exampleClass")` || `document.querySelector("exampleTagId")`
 
-### DOM manipulation
+## DOM manipulation
 
 Now we got the element/node by it's ID,class or tagId whatever, we can now manipulate the DOM.
 
-- Change the DOM
+### Change the DOM
 
 1. tagName: get/change tag for element nodes
 2. innerText: get/change pure text content of the element and all its children
 3. innerHTML: get/change plain text OR HTML contents of the elemnt and all its children
 4. textContent: returns textual content even for hidden elements.
 
+#### Atrribute 
 
+- get attribute => `getAtrribute(att)`   attribute example => class,src,href,id etc.
+- set attribute => `setAtrribute(att,value)`
 
+#### style
+
+- `node.style` => style `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"`
+
+### Insert/add elements in DOM (2 step process)
+
+- node.append(el)      => adds at the end of node(inside)      `let newBtn = document.createElement("button"); => newBtn.innerText ="click me"; => newBtn.append(someNode)`
+- node.preappend(el)   => adds at the start of node (inside)
+- node.before(el)      => adds before the node (outside)
+- node.after(el)       => adds after the node (outside)
+- appendChild(el)
+
+### Delete element
+
+- node.remove()   => `let para = document.querySelector("p"); para.remove();`
+- removeChild(el) => `node.removeChild(el)`
 
 
 ```html
@@ -108,13 +127,4 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 ```
 
 - `console.dir(document.body);`, `console.dir(document.head);`, `console.dir(document.body.chileNodes[1]);`, `console.dir(document.body.style.bacground = "green");`
-
-### Atrribute 
-
-- get attribute => `getAtrribute(att)`   attribute example => class,src,href,id etc.
-- set attribute => `setAtrribute(att,value)`
-
-### style
-
-- `node.style` => style `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"`
 
