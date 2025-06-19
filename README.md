@@ -6,6 +6,8 @@ Similarly in this repo => index.html connects script.js to browser.
 
 **NOTE :** alert() and prompt() temporarily pause the execution until you do not response to that alert OR prompt.
 
+**NOTE :** `console.log() || console.dir()`
+
 ### Where is JS in HTML
 
 1. internal JS    ( in head (which is very bad), OR at the end of body )
