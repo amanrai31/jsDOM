@@ -50,11 +50,10 @@ We can get element/node in 3 ways => `id`, `class`, `tagId`.
 1. document.getElementById("exampleId") => gets an element by it's ID
 2. document.getElementsByClassName("exampleClassName") => get element(s) by className => `returns HTMLCollections`
 3. document.getElementsByTagName("exampleTagName") =>  get element(s) by TagName => `p, div, h1` => `returns HTMLCollections`
-
-**NOTE :** This HTMLCollection is similar to an array.
-
 4. **document.querySelector("id/class/tagId")** => returns first element
 5. **document.querySelectorAll("id/class/tagId")** => returns All element => make no sense if you want to get node by id cuz it is not multiple nodes
+
+**NOTE :** `getElementByClassName, getElementByTagName` returns `HTMLCollection` which is similar to an array. `querySelectorAll` returns NodeList which is also similar to an array.
 
 - `document.querySelector("#exampleID")` || `document.querySelector(".exampleClass")` || `document.querySelector("exampleTagId")`
 
