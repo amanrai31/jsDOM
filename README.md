@@ -49,7 +49,7 @@ We can get element/node in 3 ways => `id`, `class`, `tagId`.
 
 1. document.getElementById("exampleId") => gets an element by it's ID
 2. document.getElementsByClassName("exampleClassName") => get element(s) by className => `returns HTMLCollections`
-3. document.getElementsByTagName("exampleTagName") =>  get element(s) by TagName that is `p` OR `div` OR `h1` `returns HTMLCollections`
+3. document.getElementsByTagName("exampleTagName") =>  get element(s) by TagName => `p, div, h1` => `returns HTMLCollections`
 
 **NOTE :** This HTMLCollection is similar to an array.
 
