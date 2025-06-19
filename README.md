@@ -52,6 +52,7 @@ We can get element/node in 3 ways => `id`, `class`, `tagId`.
 3. document.getElementsByTagName("exampleTagName") =>  get element(s) by TagName that is `p` OR `div` OR `h1` `returns HTMLCollections`
 
 **NOTE :** This HTMLCollection is similar to an array.
+
 4. **document.querySelector("id/class/tagId")** => returns first element
 5. **document.querySelectorAll("id/class/tagId")** => returns All element => make no sense if you want to get node by id cuz it is not multiple nodes
 
