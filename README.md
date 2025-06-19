@@ -73,6 +73,8 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 - get attribute => `getAtrribute(att)`   attribute example => class,src,href,id etc.
 - set attribute => `setAtrribute(att,value)`  => OverRides if you set existing att.
 
+- `node.classList`, `node.classList.add(someOtherClass)` => this do not override this appends/add. `node.classList.remove(className)`
+
 #### style
 
 - `node.style` => style `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"`
