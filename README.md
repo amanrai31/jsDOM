@@ -71,7 +71,7 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 #### Atrribute 
 
 - get attribute => `getAtrribute(att)`   attribute example => class,src,href,id etc.
-- set attribute => `setAtrribute(att,value)`
+- set attribute => `setAtrribute(att,value)`  => OverRides if you set existing att.
 
 #### style
 
