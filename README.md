@@ -36,7 +36,7 @@ So DOM is API for HTML & XML documents provides a tree-like structure where each
 Node type
 
 - Document         =>  Document object itself   
-- Attribute        =>  class="titles"
+- Attribute        =>  class="titles" => Addition info in our element like id,href,src,class etc.
 - Text             =>  "Hello"
 - Comment          =>  `<!--comment-->`
 - Element          =>  Main => `e.g. <div>, <p>,<ul>`
@@ -107,4 +107,14 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 </html>
 ```
 
-- `console.dir(document.body);`, `console.dir(document.head);`, `console.dir(document.body.chileNodes[1]);`, `console.dir(document.body.style.bacground = "green");` 
+- `console.dir(document.body);`, `console.dir(document.head);`, `console.dir(document.body.chileNodes[1]);`, `console.dir(document.body.style.bacground = "green");`
+
+### Atrribute 
+
+- get attribute => `getAtrribute(att)`   attribute example => class,src,href,id etc.
+- set attribute => `setAtrribute(att,value)`
+
+### style
+
+- `node.style` => style `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"`
+
