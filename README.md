@@ -31,7 +31,7 @@ Similarly in this repo => index.html connects script.js to browser.
 
 When browser loads a HTML page => It parses the `elements of HTML` into `object` so that JS can access & make changes(manipulate) and save this in `window.document` object.
 
-So DOM is API for HTML & XML documents provides a tree-like structure where each node is an object representing part of the page. (Obj model representation for HTML documents).
+So DOM is API for HTML & XML documents provides a tree-like structure where each node is an object representing part of the page. (Obj model of HTML documents).
 
 Node type
 
