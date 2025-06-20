@@ -19,7 +19,7 @@ Similarly in this repo => index.html connects script.js to browser.
 2. internal CSS        ( in head of html =>  ```<style> CSS like you write in external CSS file </style>```)
 3. external CSS        ( in head of html => ``` <link rel="stylesheet" href="style.css">```)
 
-#### CSS Selectors have different prefixes also we access/get DOM element by these 3 references only. 
+#### CSS Selectors have different prefixes also we access/get DOM element by these 3 references only. (KINDDA HTML IDENTIFIERS)
 
 1. Class => start with a ```.``` => Targets element with that class
 2. ID    => start with a ```#``` => Target element with that specific ID
