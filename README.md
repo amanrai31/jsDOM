@@ -65,7 +65,7 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 1. tagName: get/change tag for element nodes
 2. innerText: get/change pure text content of the element and all its children
-3. innerHTML: get/change plain text OR HTML contents of the element and all its children
+3. innerHTML: get/change plain text OR HTML contents of the element and all its children. Using `innerHTML` like this replaces all child nodes internally and remove event listeners from existing child elements also can re-render the element.
 4. textContent: returns textual content even for hidden elements.
 
 #### Attribute 
