@@ -91,7 +91,6 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 - appendChild(el)
 
 ### Delete element
-s
 - node.remove()   => `let para = document.querySelector("p"); para.remove();`
 - removeChild(el) => `node.removeChild(el)`
 
