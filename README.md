@@ -77,7 +77,7 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 #### style
 
-- `node.style` => style `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"`
+- `node.style` => style `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"` => It's like adding inLineCSS. Use `setAttribute()` or `node.classList.add() - best(!overwrites)`.
 
 **NOTE :** Whatever style we add through JS will become inline CSS.
 
