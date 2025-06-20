@@ -145,3 +145,4 @@ document.body.preAppend(btn);
 
 - `console.dir(document.body);`, `console.dir(document.head);`, `console.dir(document.body.chileNodes[1]);`, `console.dir(document.body.style.background = "green");`
 
+- `document.body.contentEditable = true;`
