@@ -75,7 +75,7 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 - `node.classList`, `node.classList.add(someOtherClass)` => this do not override this appends/add. `node.classList.remove(className)`
 
-- `node.style` => style `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"` => It's like adding inLineCSS. Use `setAttribute()` or `node.classList.add() - best(!overwrites)`.
+- `node.style` => style `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"` => Whatever style we add through JS/node.style will become inline CSS. Use `setAttribute()` or `node.classList.add() - best(!overwrites)`.
 
 **NOTE :** Whatever style we add through JS will become inline CSS.
 
