@@ -81,7 +81,9 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 ### Insert/add elements in DOM (2 step process => 1st create & then append)
 
-- node.append(el)      => adds at the end of node(inside); syntax => `let el = document.createElement(tagName); ADD SOME STYLE; node.append(el);`
+- node.append(el)      => adds at the end of node(inside);
+  
+**Syntax** => `let el = document.createElement(tagName); ADD SOME STYLE; node.append(el);`
 
 `let newBtn = document.createElement("button"); => newBtn.innerText ="click me"; => newBtn.append(someNode)`
 
