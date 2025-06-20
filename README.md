@@ -70,8 +70,8 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 #### Attribute 
 
-- get attribute => `getAttribute(att)`   attribute example => class,src,href,id etc.
-- set attribute => `setAttribute(att,value)`  => OverRides if you set existing att.
+1. get attribute => `getAttribute(att)`   attribute example => class,src,href,id etc.
+2. set attribute => `setAttribute(att,value)`  => OverRides if you set existing att.
 
 - `node.classList`, `node.classList.add(someOtherClass)` => this do not override this appends/add. `node.classList.remove(className)`
 
