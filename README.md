@@ -65,13 +65,13 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 1. tagName: get/change tag for element nodes
 2. innerText: get/change pure text content of the element and all its children
-3. innerHTML: get/change plain text OR HTML contents of the elemnt and all its children
+3. innerHTML: get/change plain text OR HTML contents of the element and all its children
 4. textContent: returns textual content even for hidden elements.
 
-#### Atrribute 
+#### Attribute 
 
-- get attribute => `getAtrribute(att)`   attribute example => class,src,href,id etc.
-- set attribute => `setAtrribute(att,value)`  => OverRides if you set existing att.
+- get attribute => `getAttribute(att)`   attribute example => class,src,href,id etc.
+- set attribute => `setAttribute(att,value)`  => OverRides if you set existing att.
 
 - `node.classList`, `node.classList.add(someOtherClass)` => this do not override this appends/add. `node.classList.remove(className)`
 
@@ -83,7 +83,7 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 ### Insert/add elements in DOM (2 step process)
 
-- node.append(el)      => adds at the end of node(inside); syntax => `let el = document.creatElement(tagName); ADD SOME STYLE; node.append(el);`
+- node.append(el)      => adds at the end of node(inside); syntax => `let el = document.createElement(tagName); ADD SOME STYLE; node.append(el);`
 
 `let newBtn = document.createElement("button"); => newBtn.innerText ="click me"; => newBtn.append(someNode)`
 
@@ -93,7 +93,7 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 - appendChild(el)
 
 ### Delete element
-
+s
 - node.remove()   => `let para = document.querySelector("p"); para.remove();`
 - removeChild(el) => `node.removeChild(el)`
 
@@ -133,7 +133,7 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 </html>
 ```
 
-- Qestion => Add a button with name "Click", background color should be red and append this button at the starting of body.
+- Question => Add a button with name "Click", background color should be red and append this button at the starting of body.
 
 ```html
 let btn = document.createElement("button");
@@ -143,5 +143,5 @@ btn.style.backgroundColor = "red";
 document.body.preAppend(btn);
 ```
 
-- `console.dir(document.body);`, `console.dir(document.head);`, `console.dir(document.body.chileNodes[1]);`, `console.dir(document.body.style.bacground = "green");`
+- `console.dir(document.body);`, `console.dir(document.head);`, `console.dir(document.body.chileNodes[1]);`, `console.dir(document.body.style.background = "green");`
 
