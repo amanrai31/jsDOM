@@ -79,7 +79,7 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 **NOTE :** Whatever style we add through JS will become inline CSS.
 
-### Insert/add elements in DOM (2 step process)
+### Insert/add elements in DOM (2 step process => 1st create & then append)
 
 - node.append(el)      => adds at the end of node(inside); syntax => `let el = document.createElement(tagName); ADD SOME STYLE; node.append(el);`
 
@@ -88,7 +88,7 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 - node.preappend(el)   => adds at the start of node (inside)
 - node.before(el)      => adds before the node (outside)
 - node.after(el)       => adds after the node (outside)
-- appendChild(el)
+- appendChild(el)      => appends only element not string
 
 ### Delete element
 - node.remove()   => `let para = document.querySelector("p"); para.remove();`
