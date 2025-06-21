@@ -2,7 +2,7 @@
 
 We can not directly run our local JS code in browser, we need to attach our JS to HTML and HTML connects JS/CSS to browser. Similarly in this repo => index.html connects script.js to browser.
 
-**HTML element identifiers** => Used to apply style in CSS, and in querySelector()
+**HTML element identifiers** => Used to apply style in CSS, and in querySelector() to access & interact with JS.
 1. id      => `#`,
 2. class   => `.`,
 3. tag     => (p,h1,div etc.)
