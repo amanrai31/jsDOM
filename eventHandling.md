@@ -21,9 +21,11 @@ Event object has all details about event. e.g. type(click,keydown), target(el th
 
 - All event handlers have access to event object's properties and methods. 
   
-**Event handling in JS** => `node.event = () => {}` 
+**Event handling in JS** => `node.event = () => {}; e.g. => node.onclick = () => {}` 
 
 **NOTE :** We can handle event in HTML too, inline event handling. BUT JS event handling gets the priority if event handling overrides.
+
+### Event listeners (event + event handler) => We can apply multiple event listener for the same element OR same event.
 
 ```html
 <button id="myBtn">Click Me</button>
