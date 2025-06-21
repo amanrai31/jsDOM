@@ -78,7 +78,7 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 - `node.classList`, `node.classList.add(someOtherClass)` => this do not override this appends/add. `node.classList.remove(className)`
 
-- `node.style` => returns OR set only inline CSS. `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"` => Whatever style we add through JS/node.style will become inline CSS(overwrites). Use `setAttribute()` or `node.classList.add() - best(!overwrites)`.
+- `node.style` => returns OR set only inline CSS. `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"` => Whatever style we add through JS/node.style will become inline CSS(overwrites). Use `setAttribute()` or `node.classList.add() - best(!overwrites)`. `node.classList.toggle("className") => adds a class if not there, and remove if it is already there`
 
 ### Insert/add elements in DOM (2 step process => 1st create then add atrribute or text, then append)
 
