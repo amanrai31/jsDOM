@@ -34,6 +34,7 @@ Event object has all details about event. e.g. type(click,keydown), target(el th
   // Adding an event listener
   btn.addEventListener("click", function(event) {
     alert("Button was clicked!");
+    console.log(event);                           // event object
     console.log("Event type:", event.type);       // click
     console.log("Event target:", event.target);  // button
   });
