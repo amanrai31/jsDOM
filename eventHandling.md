@@ -27,6 +27,8 @@ Event object has all details about event. e.g. type(click,keydown), target(el th
 
 ### Event listeners (event + event handler) => We can apply multiple event listener for the same element OR same event.
 
+- `node.addEventListener(event, callback)` `node.removeEventListener(event, callback)`
+  
 ```html
 <button id="myBtn">Click Me</button>
 
