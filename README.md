@@ -31,6 +31,7 @@ Node type  => Eevery item (element, text, comment, etc.) in the document is repr
 - Element          =>  Main => `e.g. <div>, <p>,<ul>`
 - Text             =>  "Hello"
 - Comment          =>  `<!--comment-->`
+- DocumentType     =>  <!DOCTYPE html>
 - Document         =>  Document object itself
 
 ```js
