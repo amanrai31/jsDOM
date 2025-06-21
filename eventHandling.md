@@ -19,7 +19,7 @@ An event is a signal/notification that something has happened in the browser —
 
 Event object has all details about event. e.g. type(click,keydown), target(el that the event happened on), event handler/listener(a f/n that runs in response to the event).
 
-- All event handlers have access to event object's properties and methods.
+- All event handlers have access to event object's properties and methods. 
   
 **Event handling in JS** => `node.event = () => {}` 
 
