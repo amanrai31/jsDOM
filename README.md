@@ -26,13 +26,22 @@ When browser loads a HTML page => It parses the `elements of HTML` into `object`
 
 So DOM is API for HTML & XML documents provides a tree-like structure where each node is an object representing part of the page. ( INSHORT => DOM is Obj model of HTML documents).
 
-Node type
+Node type  => Eevery item (element, text, comment, etc.) in the document is represented as a node. Text inside an element/tag is itself a node(child of that element node).
 
-- Document         =>  Document object itself   
-- Attribute        =>  class="titles" => Addition info in our element like id,href,src,class etc.
+- Element          =>  Main => `e.g. <div>, <p>,<ul>`
 - Text             =>  "Hello"
 - Comment          =>  `<!--comment-->`
-- Element          =>  Main => `e.g. <div>, <p>,<ul>`
+- Document         =>  Document object itself
+
+```js
+// html => <p>Hello</p>
+
+const elem = document.querySelector("p");
+console.log(elem.nodeType);                // ELEMENT_NODE
+
+const text = elem.firstChild;             // elem.firstChild = Hello
+console.log(text.nodeType);               // TEXT_NODE
+```
 
 -----
 
