@@ -2,12 +2,10 @@
 
 We can not directly run our local JS code in browser, we need to attach our JS to HTML and HTML connects JS/CSS to browser. Similarly in this repo => index.html connects script.js to browser.
 
-**HTML element identifiers** => id `#`, class `.`, tag (p,h1,div etc.) => Used to apply style in CSS, and in querySelector()
-
-### Where is JS in HTML
-
-1. internal JS    ( in head (which is very bad => put js in head and try `document.body` returns null i.e. DOM elements will not be accessable), OR at the end of body ) 
-2. external JS    ( standard way => because of modularity, readability, and cached JS which speeds up reload )
+**HTML element identifiers** => Used to apply style in CSS, and in querySelector()
+1. id      => `#`,
+2. class   => `.`,
+3. tag     => (p,h1,div etc.)
 
 ### Where is CSS in HTML
 
@@ -15,11 +13,10 @@ We can not directly run our local JS code in browser, we need to attach our JS t
 2. internal CSS        ( in head of html =>  ```<style> CSS like you write in external CSS file </style>```)
 3. external CSS        ( in head of html => ``` <link rel="stylesheet" href="style.css">```)
 
-#### CSS Selectors have different prefixes also we access/get DOM element by these 3 references only. (KINDDA HTML IDENTIFIERS)
+### Where is JS in HTML
 
-1. Class => start with a ```.``` => Targets element with that class
-2. ID    => start with a ```#``` => Target element with that specific ID
-3. Tag   => No prefix            => Applicable for all element with that Tag like ```<h1>```, ```<p>``` etc.
+1. internal JS    ( in head (which is very bad => put js in head and try `document.body` returns null i.e. DOM elements will not be accessable), OR at the end of body ) 
+2. external JS    ( standard way => because of modularity, readability, and cached JS which speeds up reload )
 
 **NOTE :** Inside `inspect of browser` => `element section` is for HTML & CSS AND `console section` is for JS
 
