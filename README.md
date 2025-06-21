@@ -64,7 +64,7 @@ We can get element/node in 3 ways => `id`, `class`, `tagId`.
 
 Now we got the element/node by it's ID,class or tagId whatever, we can now manipulate the DOM.
 
-### Change the DOM
+### Change the DOM (innerHTML, tagName, innerText, textContent, attributes, inline css, css class)
 
 1. tagName => get/change tag for element nodes (Overwrites)
 2. innerText => get/change pure text content of the element and all its children (Overwrites)
@@ -80,11 +80,10 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 - `node.style` => returns OR set only inline CSS. `let el = document.querySelector("#btn"); el.style.backgroundColor = "red"` => Whatever style we add through JS/node.style will become inline CSS(overwrites). Use `setAttribute()` or `node.classList.add() - best(!overwrites)`.
 
-**NOTE :** Whatever style we add through JS will become inline CSS.
+### Insert/add elements in DOM (2 step process => 1st create then add atrribute or text, then append)
 
-### Insert/add elements in DOM (2 step process => 1st create & then append)
-
-- node.append(el)      => adds at the end of node(inside);
+- document.createElement()     => create new element
+- node.append(el)              => adds at the end of node(inside);
   
 **Syntax** => `let el = document.createElement(tagName); ADD SOME STYLE; node.append(el);`
 
@@ -150,8 +149,6 @@ document.body.preAppend(btn);
 - `document.body.contentEditable = true; || document.title = "newTitle"`
 
 - Question => Make a page and change theme from light mode to dark mode & vice-versa.
-
-
 
 **NOTE :** alert() and prompt() temporarily pause the execution until you do not response to that alert OR prompt.
 
