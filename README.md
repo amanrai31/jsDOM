@@ -66,15 +66,15 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 
 ### Change the DOM
 
-1. tagName => get/change tag for element nodes
-2. innerText => get/change pure text content of the element and all its children
-3. innerHTML => get/change plain text OR HTML contents of the element and all its children. Using `innerHTML` like this replaces all child nodes internally and remove event listeners from existing child elements also can re-render the element.
-4. textContent => returns textual content even for hidden elements.
+1. tagName => get/change tag for element nodes (Overwrites)
+2. innerText => get/change pure text content of the element and all its children (Overwrites)
+3. innerHTML => get/change plain text OR HTML contents of the element and all its children. Using `innerHTML` like this replaces all child nodes internally and remove event listeners from existing child elements also can re-render the element. (Overwrites)
+4. textContent => returns textual content even for hidden elements. (Overwrites)
 
 #### Attribute 
 
 1. get attribute => `getAttribute(att)`   attribute example => class,src,href,id etc.
-2. set attribute => `setAttribute(att,value)`  => OverRides if you set existing att.
+2. set attribute => `setAttribute(att,value)`  => OverRides if you set existing att. (Overwrites)
 
 - `node.classList`, `node.classList.add(someOtherClass)` => this do not override this appends/add. `node.classList.remove(className)`
 
