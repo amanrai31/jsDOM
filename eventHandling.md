@@ -1,6 +1,6 @@
 # Events
 
-An event is a signal/notification that something has happened in the browser — either triggered by the user, the browser itself, or JS code. e.g. `click,input(form),load,submit,scroll,keydown`
+An event is a signal/notification that something has happened in the browser — either triggered by the user, the browser itself, or JS code. e.g. `click,input(form),onLoad,submit,scroll,keydown`
 
 - How event work
 
