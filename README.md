@@ -22,7 +22,7 @@ We can not directly run our local JS code in browser, we need to attach our JS t
 
 ### DOM
 
-When browser loads a HTML page => It parses the `elements of HTML` into `object` so that JS can access & interact. => `window.document object`  
+When browser loads a HTML page => It parses the `elements of HTML` into `object` so that JS can access & interact. => `window.document`  
 
 So DOM is API for HTML & XML documents provides a tree-like structure where each node is an object representing part of the page. ( INSHORT => DOM is Obj model of HTML documents).
 
