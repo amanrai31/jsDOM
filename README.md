@@ -1,12 +1,8 @@
-# Vanilla frontend and DOM
+# CONTENT => Vanilla frontend and DOM
 
-We can not directly run our local JS code in browser, we need to attach our JS to HTML and HTML connects JS to browser. 
+We can not directly run our local JS code in browser, we need to attach our JS to HTML and HTML connects JS/CSS to browser. Similarly in this repo => index.html connects script.js to browser.
 
-Similarly in this repo => index.html connects script.js to browser.
-
-**NOTE :** alert() and prompt() temporarily pause the execution until you do not response to that alert OR prompt.
-
-**NOTE :** `console.log() || console.dir()`
+**HTML element identifiers** => id `#`, class `.`, tag (p,h1,div etc.) => Used to apply style in CSS, and in querySelector()
 
 ### Where is JS in HTML
 
@@ -15,7 +11,7 @@ Similarly in this repo => index.html connects script.js to browser.
 
 ### Where is CSS in HTML
 
-1. inline CSS           `style="color: blue; font-size: 20px;"`
+1. inline CSS           `style="color: blue; font-size: 20px;"` 
 2. internal CSS        ( in head of html =>  ```<style> CSS like you write in external CSS file </style>```)
 3. external CSS        ( in head of html => ``` <link rel="stylesheet" href="style.css">```)
 
@@ -146,4 +142,10 @@ document.body.preAppend(btn);
 
 - `document.body.contentEditable = true; || document.title = "newTitle"`
 
-- Question => Make a page and change theme from light mode to dark mode & vice-versa. 
+- Question => Make a page and change theme from light mode to dark mode & vice-versa.
+
+
+
+**NOTE :** alert() and prompt() temporarily pause the execution until you do not response to that alert OR prompt.
+
+**NOTE :** `console.log() || console.dir()`
