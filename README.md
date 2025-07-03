@@ -153,3 +153,5 @@ document.body.preAppend(btn);
 **NOTE :** alert() and prompt() temporarily pause the execution until you do not response to that alert OR prompt.
 
 **NOTE :** `console.log() || console.dir()`
+
+**NOTE :** We can not apply addEventListener on HTMLCollection or nodeList because they are not individual element. They are array of elements.
