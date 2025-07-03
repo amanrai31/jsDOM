@@ -26,7 +26,7 @@ When browser loads a HTML page => It parses the `elements of HTML` into `object`
 
 So DOM is API for HTML & XML documents provides a tree-like structure where each node is an object representing part of the page. ( INSHORT => DOM is Obj model of HTML documents).
 
-Node type  => Eevery item (element, text, comment, etc.) in the document is represented as a node. Text inside an element/tag is itself a node(child of that element node).
+Node type  => Every item (element, text, comment, etc.) in the document is represented as a node. Text inside an element/tag is itself a node(child of that element node).
 
 - Element          =>  Main => `e.g. <div>, <p>,<ul>`
 - Text             =>  "Hello"
@@ -74,7 +74,7 @@ Now we got the element/node by it's ID,class or tagId whatever, we can now manip
 #### Attribute 
 
 1. get attribute => `getAttribute(att)`   attribute example => class,src,href,id etc.
-2. set attribute => `setAttribute(att,value)`  => OverRides if you set existing att. (Overwrites)
+2. set attribute => `setAttribute(att,value)`  => OverRides if you setting existing att. (Overwrites)
 
 - `node.classList`, `node.classList.add(someOtherClass)` => this do not override this appends/add. `node.classList.remove(className)`
 
