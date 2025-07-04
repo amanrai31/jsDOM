@@ -24,7 +24,7 @@ We can not directly run our local JS code in browser, we need to attach our JS t
 
 When browser loads a HTML page => It parses the `elements of HTML` into `object` so that JS can access & interact. => `window.document`  
 
-So DOM is API for HTML & XML documents provides a tree-like structure where each node is an object representing part of the page. ( INSHORT => DOM is Obj model of HTML documents).
+So DOM is API for HTML & XML documents provides a tree-like structure where each node is an object representing part of the page. ( INSHORT => DOM is Obj model of HTML documents). Redering Engine of browser does this all.
 
 Node type  => Every item (element, text, comment, etc.) in the document is represented as a node. Text inside an element/tag is itself a node(child of that element node).
 
