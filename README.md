@@ -26,6 +26,9 @@ When browser loads a HTML page => It parses the `elements of HTML` into `object`
 
 So DOM is API for HTML & XML documents provides a tree-like structure where each node is an object representing part of the page. ( INSHORT => DOM is Obj model of HTML documents). Redering Engine of browser does this all.
 
+#### Render tree 
+=> DOM + CSSOM (Browser engine does all maths and painting work), if JS encounters mid way, it will load all JS first, that is why we keep SCRIPT at bottom, when all JS loaded then hydration completes.
+
 Node type  => Every item (element, text, comment, etc.) in the document is represented as a node. Text inside an element/tag is itself a node(child of that element node).
 
 - Element          =>  Main => `e.g. <div>, <p>,<ul>`
