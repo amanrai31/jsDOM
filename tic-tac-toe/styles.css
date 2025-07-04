@@ -10,7 +10,7 @@ body {
   }
   
   .main {
-    width: 600px;
+    width: 70vh;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -27,21 +27,37 @@ body {
     grid-template-columns: repeat(3, 150px);
     grid-template-rows: repeat(3, 150px);
     gap: 15px;
-    margin-top: 10px;;
+    margin-top: 10px;
   }
   
   .btn {
     border-radius: 20px;
-    font-size: 24px;
+    font-size: 80px;
     background-color: white;
     cursor: pointer;
+    color: red;
+    font-weight: 900;
   }
-
-.tossBtn {
+  
+  .xColor {
+    color: blue;
+  }
+  
+  .tossBtn {
     width: flex;
-    height:30px;
+    height: 30px;
     background-color: black;
-    color:white;
+    color: white;
     border-radius: 20px;
-}
+    cursor: pointer;
+  }
+  
+  .restartBtn {
+    width: flex;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
   
